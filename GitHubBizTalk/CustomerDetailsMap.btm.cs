@@ -14,9 +14,9 @@ namespace GitHubBizTalk {
   <xsl:template match=""/s0:Root"">
     <xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(string(FirstName/text()) , string(MiddleName/text()) , string(LastName/text()))"" />
     <ns0:Root>
-      <FullName>
+      <FullNameCustomer>
         <xsl:value-of select=""$var:v1"" />
-      </FullName>
+      </FullNameCustomer>
     </ns0:Root>
   </xsl:template>
   <msxsl:script language=""C#"" implements-prefix=""userCSharp""><![CDATA[

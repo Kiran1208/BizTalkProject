@@ -20,7 +20,7 @@ namespace GitHubBizTalk {
   <xs:element name=""Root"">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name=""FullName"" type=""xs:string"" />
+        <xs:element name=""FullNameCustomer"" type=""xs:string"" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
